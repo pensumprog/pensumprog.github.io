@@ -1,185 +1,165 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pensum Programmering B</title>
-  <style>
-.collapsible {
-  background-color: #000;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-</style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body style="background-color:#000;">
+  <div id="all_content">
+    <h2 id="overskrift">Pensum Programmering B</h2>
 
-<h2 style="color:white;">Pensum Programmering B</h2>
+    <p style="color:white;"><i>Nedenfor er et link til undervisningsministeriets læreplan for programmering B, der er udgangspunkt for alt gymnasiel programmeringsundervisning i danmark:
+        </br>
+        <a style="color:LightBlue;" target="_blank" href="Programmering-B-valgfag-august-2017.pdf">Programmering-B-valgfag-august-2017.pdf</a>
+      </i></p>
 
-<p style="color:white;"><i>Nedenfor er et link til undervisningsministeriets læreplan for programmering B, der er udgangspunkt for alt gymnasiel programmeringsundervisning i danmark:
-</br>
-<a style="color:LightBlue;" target="_blank" href="Programmering-B-valgfag-august-2017.pdf">Programmering-B-valgfag-august-2017.pdf</a>
-</i></p>
-
-<p  style="color:white;max-width:2000px"><i>Her følger en oversigt over pensum i programmering B, for klasserne 3i og 2i på HCØ Lyngby.
-  Oversigten er baseret på anvendelse af Processing i undervisningen.
-  Oversigten er vejledende og der forekommer mangler:</i></p>
+    <p style="color:white;max-width:2000px"><i>Her følger en oversigt over pensum i programmering B, for klasserne 3i og 2i på HCØ Lyngby.
+        Oversigten er baseret på anvendelse af Processing i undervisningen.
+        Oversigten er vejledende og der forekommer mangler:</i></p>
 
 
-<button type="button" class="collapsible">Arbejdsgange og systematik I arbejdsprocessen</button>
-<div class="content">
-  <ul>
-    <li><b>Stepwise Improvement:</b></li>
-      <ol>
-        <li>lav lille ændring</li>
-        <li>test ændring</li>
-        <li>ret koden hvis den ikke virker</li>
-        <li>gentag</li>
-      </ol>
-    <li><b>Udvalgte clean code regler:</b></li>
+    <button type="button" class="collapsible">Arbejdsgange og systematik I arbejdsprocessen</button>
+    <div class="content">
       <ul>
-        <li>god navngivning</li>
-        <li>ingen gentagelser</li>
-        <li>gør koden simpel</li>
-        <li>ryd altid op i koden efter en ændring</li>
+        <li><b>Stepwise Improvement:</b></li>
+        <ol>
+          <li>lav lille ændring</li>
+          <li>test ændring</li>
+          <li>ret koden hvis den ikke virker</li>
+          <li>gentag</li>
+        </ol>
+        <li><b>Udvalgte clean code regler:</b></li>
+        <ul>
+          <li>god navngivning</li>
+          <li>ingen gentagelser</li>
+          <li>gør koden simpel</li>
+          <li>ryd altid op i koden efter en ændring</li>
+        </ul>
       </ul>
-  </ul>
-</div>
+    </div>
 
-<button type="button" class="collapsible">Test og fejlfinding i programmer</button>
-<div class="content">
-  <ul>
-    <li>print til konsol</li>
-    <li>anvend debugger</li>
-    <li>skriv unit test (ikke pensum)</li>
-  </ul>
-</div>
+    <button type="button" class="collapsible">Test og fejlfinding i programmer</button>
+    <div class="content">
+      <ul>
+        <li>print til konsol</li>
+        <li>anvend debugger</li>
+        <li>skriv unit test (ikke pensum)</li>
+      </ul>
+    </div>
 
-<button type="button" class="collapsible">Grundlæggende viden om processing</button>
-<div class="content">
-  <ul>
-    <li><b>Metoder/Funktioner:</b> setup, draw, mousePressed, keyPressed, size, background, clear, frameRate, mouseX, random</li>
-    <li><b>Variabler:</b>	key, mousePressed, mouseX, mouseY, frameCount.</li>
-</div>
+    <button type="button" class="collapsible">Grundlæggende viden om processing</button>
+    <div class="content">
+      <ul>
+        <li><b>Metoder/Funktioner:</b> setup, draw, mousePressed, keyPressed, size, background, clear, frameRate, mouseX, random</li>
+        <li><b>Variabler:</b> key, mousePressed, mouseX, mouseY, frameCount.</li>
+    </div>
 
-<button type="button" class="collapsible">Variabler og datatyper</button>
-<div class="content">
-<ul>
-  <li><b>Variabler:</b> deklaration, værditildeling</li>
-  <li><b>Scope og kode-blok</b></li>
-  <li><b>Datatyper:</b> int, float, boolean, char</li>
-  <li><b>Datatype Konvertering:</b>	…</li>
-  <li><b>String:</b> brug af +, length, split</li>
-  <li><b>Arrays:</b> oprettelse, ændring, indeksering, flere dimensioner og length</li>
-  <li><b>ArrayList:</b> oprettelse, clear, add, get, remove og size</li>
-  <ul>
-</div>
+    <button type="button" class="collapsible">Variabler og datatyper</button>
+    <div class="content">
+      <ul>
+        <li><b>Variabler:</b> deklaration, værditildeling</li>
+        <li><b>Scope og kode-blok</b></li>
+        <li><b>Datatyper:</b> int, float, boolean, char</li>
+        <li><b>Datatype Konvertering:</b> …</li>
+        <li><b>String:</b> brug af +, length, split</li>
+        <li><b>Arrays:</b> oprettelse, ændring, indeksering, flere dimensioner og length</li>
+        <li><b>ArrayList:</b> oprettelse, clear, add, get, remove og size</li>
+        <ul>
+    </div>
 
-<button type="button" class="collapsible">Udtryk</button>
-<div class="content">
-  <p><b>Betingelser:</b> Sammenlignings operatorer f.eks. && || < > eller == og Sammenligninger </p>
-</div>
+    <button type="button" class="collapsible">Udtryk</button>
+    <div class="content">
+      <p><b>Betingelser:</b> Sammenlignings operatorer f.eks. && || <> eller == og Sammenligninger </p>
+    </div>
 
-<button type="button" class="collapsible">Kontrolstrukturer</button>
-<div class="content">
-<ul>
-  <li><b>if-statements / if-else / if - else if - else</b></li>
-  <li><b>Løkker:</b> for-loop og while-loops.</li>
-  <li><b>break:</b> kommando til at hoppe ud af et loop</li>
-  <li><b>continue:</b> kommando til at hoppe videre til næste “step” i loopet</li>
-</ul>
-</div>
+    <button type="button" class="collapsible">Kontrolstrukturer</button>
+    <div class="content">
+      <ul>
+        <li><b>if-statements / if-else / if - else if - else</b></li>
+        <li><b>Løkker:</b> for-loop og while-loops.</li>
+        <li><b>break:</b> kommando til at hoppe ud af et loop</li>
+        <li><b>continue:</b> kommando til at hoppe videre til næste “step” i loopet</li>
+      </ul>
+    </div>
 
-<button type="button" class="collapsible">Parametrisering</button>
-<div class="content">
-<p><b>Design af funktioner:</b> returtype, input parametre og funktionsnavnet</p>
-</div>
+    <button type="button" class="collapsible">Parametrisering</button>
+    <div class="content">
+      <p><b>Design af funktioner:</b> returtype, input parametre og funktionsnavnet</p>
+    </div>
 
-<button type="button" class="collapsible">Objektorient programmering</button>
-<div class="content">
-<ul>
-  <li><b>Klasser og Objekter:</b> class og new</li>
-  <li><b>Nedarving:</b> extends</li>
-  <li><b>Indkapsling:</b> opdel alt kode i klasser, med hvert sit ansvarsområde!!</li>
-    <li><b>Polymorfi:</b> f.eks at man kan skrive A a1 = new B() og a1 = new C();</li>
-      <li><b>Komposition:</b></li>
-  <li><b>Konstruktører:</b></li>
-</ul>
-</div>
+    <button type="button" class="collapsible">Objektorient programmering</button>
+    <div class="content">
+      <ul>
+        <li><b>Klasser og Objekter:</b> class og new</li>
+        <li><b>Nedarving:</b> extends</li>
+        <li><b>Indkapsling:</b> opdel alt kode i klasser, med hvert sit ansvarsområde!!</li>
+        <li><b>Polymorfi:</b> f.eks at man kan skrive A a1 = new B() og a1 = new C();</li>
+        <li><b>Komposition:</b></li>
+        <li><b>Konstruktører:</b></li>
+      </ul>
+    </div>
 
-<button type="button" class="collapsible">Interaktion imellem systemer</button>
-<div class="content">
-<ul>
-  <li><b>Udskrivning/Læsning fra fil:</b> loadTable/saveTable og loadStrings/saveStrings</li>
-  <li><b>Databasers og database interaktion:</b></li>
-</ul>
-</div>
+    <button type="button" class="collapsible">Interaktion imellem systemer</button>
+    <div class="content">
+      <ul>
+        <li><b>Udskrivning/Læsning fra fil:</b> loadTable/saveTable og loadStrings/saveStrings</li>
+        <li><b>Databasers og database interaktion:</b></li>
+      </ul>
+    </div>
 
-<button type="button" class="collapsible">Biblioteker og generiske dele</button>
-<div class="content">
-<p>Dette emne dækkes af vores GUI-bibliotek</p>
-</div>
+    <button type="button" class="collapsible">Biblioteker og generiske dele</button>
+    <div class="content">
+      <p>Dette emne dækkes af vores GUI-bibliotek</p>
+    </div>
 
-<button type="button" class="collapsible">Abstrakt dokumentation</button>
-<div class="content">
-<p>Rapporter og diverse diagrammer til illustration af programmer.</p>
-  <ul>
-  <li>Pseudokode</li>
-  <li>Flowcharts </li>
-  <li>Klassediagrammer – ikke standardiserede</li>
-  <li>UML –forskellige standardiserede diagrammer (vi ser kun på klassediagrammer)</li>
-</ul>
-</div>
+    <button type="button" class="collapsible">Abstrakt dokumentation</button>
+    <div class="content">
+      <p>Rapporter og diverse diagrammer til illustration af programmer.</p>
+      <ul>
+        <li>Pseudokode</li>
+        <li>Flowcharts </li>
+        <li>Klassediagrammer – ikke standardiserede</li>
+        <li>UML –forskellige standardiserede diagrammer (vi ser kun på klassediagrammer)</li>
+      </ul>
+    </div>
 
-<button type="button" class="collapsible">Algoritmer & Rekursion</button>
-<div class="content">
-<p>En række instruktioner, eventuelt gentaget,- der løser et problem:</br>
-F.eks. sortering af tal </p>
-</div>
+    <button type="button" class="collapsible">Algoritmer & Rekursion</button>
+    <div class="content">
+      <p>En række instruktioner, eventuelt gentaget,- der løser et problem:</br>
+        F.eks. sortering af tal </p>
+    </div>
 
-<button type="button" class="collapsible">Supplerende stof</button>
-<div class="content">
-<p>
-Brug af versionsstyring med GitHub (dvs. både GitHub og GitHub Desktop) </br>
-Introduktion om paradigmer: OOP vs FP</br>
-StrategyPattern
-</p>
-</div>
+    <button type="button" class="collapsible">Supplerende stof</button>
+    <div class="content">
+      <p>
+        Brug af versionsstyring med GitHub (dvs. både GitHub og GitHub Desktop) </br>
+        Introduktion om paradigmer: OOP vs FP</br>
+        StrategyPattern
+      </p>
+    </div>
 
+  </div>
 
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
 
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
     }
-  });
-}
-</script>
+  </script>
 
 </body>
+
 </html>
