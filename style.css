@@ -19,6 +19,7 @@
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+  margin-bottom: 10px;
 }
 
 #all_content {
@@ -26,6 +27,7 @@
   width: 80%;
   margin-top: 20px;
   margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 20px;
   padding: 20px;
 }
@@ -33,4 +35,5 @@
 #overskrift{
    color:white;
    text-align: center;
+   font-size: 25px;
 }
