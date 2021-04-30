@@ -38,6 +38,15 @@
           <li>gør koden simpel</li>
           <li>ryd altid op i koden efter en ændring</li>
         </ul>
+        <li><b>Objektorienteret analyse og design (forkortet OOAD): De fem trin</b></li>
+        <ol>
+          <li><b>Krav:</b> Krav spec. og design. spec.</li>
+          <li><b>Analyse:</b> Beskrivelse af hvordan systemet virker uden at tænke på kode. Lav ting-forklarings liste, Brugerscenarie, Aktivitets(eller flowchart)</li>
+          <li><b>Design:</b> Design af hvordan det skal programmeres. Lav f.eks. klasseliste, kollaborations diagram, rollediagram og tilsidst klasse-diagrammet </li>
+          <li><b>Programmering:</b> Den endelige kodning (brug f.eks. clean code og stepwise improvement)</li>
+          <li><b>Test:</b> F.eks. system test der viser at krav og design er opfyldt</li>
+        </ol>
+
       </ul>
     </div>
 
@@ -50,20 +59,25 @@
       </ul>
     </div>
 
-    <button type="button" class="collapsible">Grundlæggende viden om processing</button>
+    <button type="button" class="collapsible">Grundlæggende viden om processing (og lidt Java)</button>
     <div class="content">
+      <p>Det er en ufuldstændig liste, men det mest vigtige</p>
       <ul>
-        <li><b>Metoder/Funktioner:</b> setup, draw, mousePressed, keyPressed, size, background, clear, frameRate, mouseX, random</li>
-        <li><b>Variabler:</b> key, mousePressed, mouseX, mouseY, frameCount.</li>
+        <li><b>Hvad er keywords i Java:</b> Reserverede ord som sproget bruger, og ikke kan bruges som f.eks. variabel-navne, f.eks. "if"</li>
+        <li><b>Java vs. andre sprog:</b> Typestærkt. Kompileres til bytecode, der eksekveres i tn platformsuafhængigt-program kaldet java-virtual-machine</li>
+        <li><b>Exceptions og behandling af exceptions:</b> Undtagelser som sker runtime, fangestry/catch </li>
+        <li><b>Processing Metoder/Funktioner:</b> setup, draw, mousePressed, keyPressed, size, background, clear, frameRate, random</li>
+        <li><b>Processing Variabler:</b> key, mousePressed, mouseX, mouseY, frameCount.</li>
     </div>
 
     <button type="button" class="collapsible">Variabler og datatyper</button>
     <div class="content">
       <ul>
+        <li><b>Scope og kode-blok:</b> kode-blokke og scope er indenfor krølle-paranteserne { }. Scope betydning for hvor og hvornår variabeler eksisterer</li>
         <li><b>Variabler:</b> deklaration, værditildeling</li>
-        <li><b>Scope og kode-blok</b></li>
-        <li><b>Datatyper:</b> int, float, boolean, char</li>
-        <li><b>Datatype Konvertering:</b> …</li>
+        <li><b>Primitive datatyper:</b> int, float, boolean, char ... (der er også. byte, short, long og double)</li>
+        <li><b>Primitive datatype Konvertering:</b> …</li>
+        <li><b>Ikke-primitive datatyper:</b> F.eks. String's, arrays og klasser </li>
         <li><b>String:</b> brug af +, length, split</li>
         <li><b>Arrays:</b> oprettelse, ændring, indeksering, flere dimensioner og length</li>
         <li><b>ArrayList:</b> oprettelse, clear, add, get, remove og size</li>
@@ -90,23 +104,27 @@
       <p><b>Design af funktioner:</b> returtype, input parametre og funktionsnavnet</p>
     </div>
 
-    <button type="button" class="collapsible">Objektorient programmering</button>
+    <button type="button" class="collapsible">Objektorienteret programmering (forkortet oop)</button>
     <div class="content">
+      <p>Vigtig terminologi:</p>
       <ul>
-        <li><b>Klasser og Objekter:</b> class og new</li>
-        <li><b>Nedarving:</b> extends</li>
-        <li><b>Indkapsling:</b> opdel alt kode i klasser, med hvert sit ansvarsområde!!</li>
-        <li><b>Polymorfi:</b> f.eks at man kan skrive A a1 = new B() og a1 = new C();</li>
-        <li><b>Komposition:</b></li>
-        <li><b>Konstruktører:</b></li>
+        <li><b>Klasser og Objekter:</b>vigtige keywords er class og new</li>
+        <li><b>Indkapsling:</b> det anses som god kodepraksis at indkapsle data i objekter og kun tilgå data igennem metoder.</li>
+        <li><b>Ansvarsområder:</b> det er anses ligeledes som god kodepraksis at en klasse har et ansvarsområde.</li>
+        <li><b>Typer og typekonvertering:</b> Med klasser kan man definere n
+        <li><b>Polymorfi:</b> Type-polymorfi er f.eks at man kan skrive A a1 = new B() og a1 = new C(); (der findes også override og overload af metoder)</li>
+        <li><b>Nedarving:</b> keyword extends. Når en klasse har en "er en" relation</li>
+        <li><b>Komposition:</b> Når en klasser har en "har en" relation</li>
+        <li><b>Konstruktører:</b> Den "metode" som kaldes når et objekt skal skabes. Har altid samme navn som klassen og ingen returtype</li>
       </ul>
+      <p><b>Objektorienteret analyse og design (forkortet oop):</b> En systematisk måde at udvikle oop på (se arbejdsprocessen og arbejdsgange ovenfor)</p>
     </div>
 
     <button type="button" class="collapsible">Interaktion imellem systemer</button>
     <div class="content">
       <ul>
         <li><b>Udskrivning/Læsning fra fil:</b> loadTable/saveTable og loadStrings/saveStrings</li>
-        <li><b>Databasers og database interaktion:</b></li>
+        <li><b>Databasers og database interaktion:</b> (ikke pensum)</li>
       </ul>
     </div>
 
