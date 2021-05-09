@@ -54,6 +54,7 @@
           <li><b>Programmering:</b> Den endelige kodning (brug f.eks. clean code og stepwise improvement)</li>
           <li><b>Test:</b> F.eks. system test der viser at krav og design er opfyldt</li>
         </ol>
+        <li><b>Kode kommentarer:</b> Kan anvendes til "noter", eller "information" til senere eller andres brug.</li>
 
       </ul>
     </div>
@@ -100,7 +101,7 @@
     <button type="button" class="collapsible">Kontrolstrukturer</button>
     <div class="content">
       <ul>
-        <li><b>if-statements / if-else / if - else if - else</b></li>
+        <li><b>if-statements / if-else / if - else if - else / switch</b></li>
         <li><b>Løkker:</b> for-loop og while-loops.</li>
         <li><b>break:</b> kommando til at hoppe ud af et loop</li>
         <li><b>continue:</b> kommando til at hoppe videre til næste “step” i loopet</li>
@@ -119,12 +120,13 @@
         <li><b>Klasser og Objekter:</b>vigtige keywords er class og new</li>
         <li><b>Indkapsling:</b> det anses som god kodepraksis at indkapsle data i objekter og kun tilgå data igennem metoder.</li>
         <li><b>Ansvarsområder:</b> det er anses ligeledes som god kodepraksis at en klasse har et ansvarsområde.</li>
-        <li><b>Typer og typekonvertering:</b> Med klasser kan man definere nye typer. Hvis man har lavet et type hieraki er det muligt i nogle tilfælde at konvertere imellem typerne </li>
-        <li><b>Polymorfi:</b> Type-polymorfi er f.eks at man kan skrive A a1 = new B() og a1 = new C(); (der findes også override og overload af metoder)</li>
-        <li><b>Nedarving:</b> keyword extends. Når en klasse har en "er en" relation</li>
-        <li><b>Komposition:</b> Når en klasser har en "har en" relation</li>
-        <li><b>Aggregation(eng.):</b> Når en klasser har en "bruger en" relation, svagere end komposition</li>
-        <li><b>Association(eng.):</b> Fællesbetegnelse for Komposition og Aggregation</li>
+        <li><b>Ikke primitive typer:</b> Med klasser kan man definere nye "ikke primitive typer". </li>
+        <li><b>Konvertering af ikke primitive typer:</b> Man kan kun konvertere imellem typer indenfor samme hieraki</li>
+        <li><b>Polymorfi:</b> Polymorfi betyder mangeformethed. Polymorfi hentyder til situationen hvor variable og parametre kan 'have eller antage forskellige former'.</li>
+        <li><b>Nedarving:</b> keyword extends. Når en klasse har en "er en" relation.</li>
+        <li><b>Association(eng.):</b> Fællesbetegnelse for Komposition og Aggregation, som begge er en "har en" relation.</li>
+        <li><b>Komposition:</b> Stærk binding. Klassen ejer et objekt af den anden klasse.</li>
+        <li><b>Aggregation(eng.):</b> Svag binding. Klassen bruger et objekt af en anden klasse, f.eks. er objektet i en ArrayList.</li>
         <li><b>Konstruktører:</b> Den "metode" som kaldes når et objekt skal skabes. Har altid samme navn som klassen og ingen returtype</li>
       </ul>
       <p><b>Objektorienteret analyse og design (forkortet oop):</b> En systematisk måde at udvikle oop på (se arbejdsprocessen og arbejdsgange ovenfor)</p>
